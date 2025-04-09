@@ -41,3 +41,7 @@ function autofill(url) {
   address.value = url;
   form.requestSubmit(); // Automatically submit the form
 }
+
+window.onload = function() {
+  autofill('https://tiktok.com')
+}
